@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('kep5.jpg');
+  	background-size: cover;
+  	
+}
+
+h1 {
+	text-transform: capitalize;
+	font-size: 80px;
+	text-shadow: 0 0 15px red;
+	font-family: 'Tangerine';
+
+}
+
+img {
+	height: 350px;
+	opacity: 0.8;
+	border-radius: 25%;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+figure {
+	font-family: 'Tangerine';
+	font-size: 20px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.typewriter {
+	text-align: center;
+	flex-shrink: 2;
+	margin-top: 75px;
+}
+
+.image {
+	text-align: center;
+	margin-top: 15px;
+
+}
+
+
+
+
